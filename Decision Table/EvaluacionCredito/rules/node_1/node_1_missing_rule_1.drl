@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>node_1_missing_rule_1</name>
+  <uuid>e6183193-e3f3-4eaf-ab98-b081a68d9e6a</uuid>
+  <documentation><![CDATA[Suggested missing rule: The decision needs to be reviewed.]]></documentation>
+  <active>false</active>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	MontoSolicitado is more than 999999 
+then
+	-- This is a generated rule. Choose a meaningful value for the decision variable.
+	set decision to "" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

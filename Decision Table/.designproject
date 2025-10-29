@@ -1,0 +1,10 @@
+{
+  "description" : "“Evalúa el monto solicitado y determina el resultado del crédito”",
+  "groupId" : "cp4admin.reglasevaluacioncredito.decision_table",
+  "locale" : "en_US",
+  "properties" : {
+    "refactoringEnabled" : false,
+    "tags" : [ ]
+  },
+  "extraProperties" : { }
+}

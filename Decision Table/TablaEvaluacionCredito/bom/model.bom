@@ -1,0 +1,40 @@
+
+package cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito;
+
+
+class MontoSolicitado
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "MontoSolicitado"
+        #de.generated
+{
+    double montoSolicitado
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "MontoSolicitado"
+                #update;
+    MontoSolicitado(double montoSolicitado)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    MontoSolicitado()
+                #dataio.default;
+}
+
+class ResultadoCredito
+        property ads.typeId "2"
+        property com.fasterxml.jackson.annotation.JsonTypeName "ResultadoCredito"
+        #de.generated
+{
+    string resultado
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "Resultado"
+                #update;
+    ResultadoCredito(string resultado)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    ResultadoCredito()
+                #dataio.default;
+}
+
