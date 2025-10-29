@@ -19,7 +19,7 @@
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Double" collection="false" name="MontoSolicitado"/>
-                <output bomType="java.lang.String" collection="false" name="Decision"/>
+                <output bomType="cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.Credito" collection="false" name="Decision"/>
                 <rule defaultRule="false" href="node_1/node_1_missing_rule_1.drl" kind="BusinessRule" name="node_1_missing_rule_1">
                     <properties>
                         <property name="source"><![CDATA[missing rule]]></property>
@@ -33,7 +33,7 @@
                 <rule defaultRule="false" href="node_1/TablaEvaluacionCredito.dmt" kind="DecisionTable" name="TablaEvaluacionCredito"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_1_ii" name="Decision" typeRef="java.lang.String"/>
+        <variable id="node_1_ii" name="Decision" typeRef="cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.Credito"/>
         <informationRequirement>
             <requiredInput href="#node_0"/>
         </informationRequirement>

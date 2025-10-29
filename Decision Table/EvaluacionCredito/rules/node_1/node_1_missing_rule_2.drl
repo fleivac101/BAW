@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
   <name>node_1_missing_rule_2</name>
-  <uuid>2021312b-2dd1-43e9-9f93-b57c37758645</uuid>
+  <uuid>ee498d9c-5ea7-46dd-a79d-9caaf696bbb3</uuid>
   <documentation><![CDATA[Suggested missing rule: The decision needs to be reviewed.]]></documentation>
   <active>false</active>
   <locale>en_US</locale>
@@ -9,5 +9,5 @@
 	MontoSolicitado is less than 0 
 then
 	-- This is a generated rule. Choose a meaningful value for the decision variable.
-	set decision to "" ;]]></definition>
+	set decision to a new credito ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

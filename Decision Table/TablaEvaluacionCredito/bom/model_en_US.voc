@@ -1,4 +1,10 @@
 
+# cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.Credito
+cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.Credito#concept.label = credito
+cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.Credito.Credito(java.lang.String)#phrase.navigation = a new {credito} where {0, status}
+cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.Credito.status#phrase.action = set the status of {this} to {status}
+cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.Credito.status#phrase.navigation = {status} of {this}
+
 # cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.MontoSolicitado
 cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.MontoSolicitado#concept.label = MontoSolicitado
 cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.MontoSolicitado.MontoSolicitado(double)#phrase.navigation = a new {MontoSolicitado} where {0, MontoSolicitado}
@@ -6,9 +12,3 @@ cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.MontoSoli
 cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.MontoSolicitado.montoSolicitado#phrase.addition_setter = add {MontoSolicitado} to the MontoSolicitado of {this}
 cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.MontoSolicitado.montoSolicitado#phrase.navigation = {MontoSolicitado} of {this}
 cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.MontoSolicitado.montoSolicitado#phrase.subtraction_setter = subtract {MontoSolicitado} from the MontoSolicitado of {this}
-
-# cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.ResultadoCredito
-cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.ResultadoCredito#concept.label = ResultadoCredito
-cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.ResultadoCredito.ResultadoCredito(java.lang.String)#phrase.navigation = a new {ResultadoCredito} where {0, Resultado}
-cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.ResultadoCredito.resultado#phrase.action = set the Resultado of {this} to {Resultado}
-cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito.ResultadoCredito.resultado#phrase.navigation = {Resultado} of {this}

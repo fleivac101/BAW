@@ -20,7 +20,7 @@
             <ActionDefinitions>
                 <ActionDefinition Id="A0">
                     <ExpressionDefinition>
-                        <Text><![CDATA[set 'decision' to <a string>]]></Text>
+                        <Text><![CDATA[set the status of decision to <a string> ]]></Text>
                     </ExpressionDefinition>
                 </ActionDefinition>
             </ActionDefinitions>
@@ -32,7 +32,6 @@
                         <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
                         <Param><![CDATA[0]]></Param>
                         <Param><![CDATA[10000]]></Param>
-                        <Param/>
                     </Expression>
                     <ActionSet>
                         <Action DefId="A0">
@@ -47,7 +46,6 @@
                         <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
                         <Param><![CDATA[10001]]></Param>
                         <Param><![CDATA[20000]]></Param>
-                        <Param/>
                     </Expression>
                     <ActionSet>
                         <Action DefId="A0">
@@ -62,7 +60,6 @@
                         <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
                         <Param><![CDATA[20001]]></Param>
                         <Param><![CDATA[999999]]></Param>
-                        <Param/>
                     </Expression>
                     <ActionSet>
                         <Action DefId="A0">
@@ -74,67 +71,39 @@
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
             </Partition>
         </Contents>
     </Body>
     <Resources DefaultLocale="en_US">
         <ResourceSet Locale="en_US">
-            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Decision]]></Data>
             <Data Name="Definitions(C0)#HeaderText"><![CDATA[MontoSolicitado]]></Data>
+            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Decision]]></Data>
         </ResourceSet>
     </Resources>
 </DT>

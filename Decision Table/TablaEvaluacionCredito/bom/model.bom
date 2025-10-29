@@ -2,6 +2,24 @@
 package cp4admin.reglasevaluacioncredito.decision_table.tablaevaluacioncredito;
 
 
+class Credito
+        property ads.typeId "3"
+        property com.fasterxml.jackson.annotation.JsonTypeName "credito"
+        #de.generated
+{
+    string status
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "status"
+                #update;
+    Credito(string status)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Credito()
+                #dataio.default;
+}
+
 class MontoSolicitado
         property ads.typeId "1"
         property com.fasterxml.jackson.annotation.JsonTypeName "MontoSolicitado"
@@ -17,24 +35,6 @@ class MontoSolicitado
                 property groups "BALA"
                 #prototype;
     MontoSolicitado()
-                #dataio.default;
-}
-
-class ResultadoCredito
-        property ads.typeId "2"
-        property com.fasterxml.jackson.annotation.JsonTypeName "ResultadoCredito"
-        #de.generated
-{
-    string resultado
-                property ads.attributeId "1"
-                property com.fasterxml.jackson.annotation.JsonProperty "Resultado"
-                #update;
-    ResultadoCredito(string resultado)
-                #autoExpand
-                #beanConstructor
-                property groups "BALA"
-                #prototype;
-    ResultadoCredito()
                 #dataio.default;
 }
 
